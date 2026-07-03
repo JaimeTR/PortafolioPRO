@@ -1,8 +1,24 @@
 import fs from 'fs'
 import path from 'path'
-import matter from 'gray-matter'
+import yaml from 'js-yaml'
 
 const root = process.cwd()
+
+const parseFrontmatter = (source) => {
+    const match = source.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/)
+
+    if (!match) {
+        return { data: {}, content: source }
+    }
+
+    const rawData = yaml.load(match[1]) || {}
+    const data = rawData && typeof rawData === 'object' ? rawData : {}
+
+    return {
+        data,
+        content: source.slice(match[0].length),
+    }
+}
 
 // List all files in posts directory
 export const getPostsFiles = () => fs.readdirSync(path.join(root, 'src/posts'))
@@ -34,7 +50,7 @@ export const getPostBySlug = async (slug, lang = 'es') => {
     } else {
         mdxSource = fs.readFileSync(esPath, 'utf-8')
     }
-    const { data, content } = matter(mdxSource)
+    const { data, content } = parseFrontmatter(mdxSource)
     return {
         content,
         frontmatter: {
@@ -80,7 +96,7 @@ export const getAllPostsMetadata = (lang = 'es') => {
         }
 
         const mdxSource = fs.readFileSync(pathToRead, 'utf-8')
-        const { data } = matter(mdxSource)
+        const { data } = parseFrontmatter(mdxSource)
         return [{ ...data, slug: base }, ...allPosts]
     }, [])
 }

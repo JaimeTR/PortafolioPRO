@@ -1,9 +1,6 @@
 import { NextResponse } from 'next/server'
 import OpenAI from 'openai'
-import * as pdfjsLib from 'pdfjs-dist'
-
-// Configurar worker para Next.js
-pdfjsLib.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.min.mjs`
+import * as pdfjsLib from 'pdfjs-dist/legacy/build/pdf.mjs'
 
 export async function POST(request) {
   try {
