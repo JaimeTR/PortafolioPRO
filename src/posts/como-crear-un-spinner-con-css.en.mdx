@@ -1,0 +1,78 @@
+---
+title: "Cómo crear un spinner loader con CSS \U0001F300"
+date: '2022-04-15'
+description: "Aprende a crear un donut spinner \U0001F369 sólo usando CSS y en menos de un minuto. Perfecto para frontenders impacientes ⏲️."
+toc: true
+tags:
+  - css
+cover: /images/posts/como-crear-un-spínner-con-css.svg
+author: '@midudev'
+featured_order: 50
+---
+
+> **Nota:** _Este artículo de blog es copia fiel del original redactado y publicado por _ **<a href="https://midu.dev" target="_blank">@midudev</a>**
+
+Un spinner loader, o donut spinner, es un elemento muy típico en nuestras aplicaciones ya que le **indica al usuario que un contenido se está cargando.**
+
+Vamos a ver **cómo puedes crear el tuyo con HTML y CSS** en muy pocas líneas de código.
+
+## Creando el spinner con HTML y CSS desde cero
+
+Lo primero que tenemos que hacer es el HTML de nuestro spinner:
+
+```html
+<div class="spinner"></div>
+```
+
+Y a partir de aquí estilamos esta clase con CSS. ¡Vamos por partes!
+
+Primero le añadimos un borde, con **4 píxeles de borde** y lo hacemos con un color negro pero con mucha transparencia. Pero hacemos que uno de los lados no tenga color, que sea transparente. Y también hacemos que use el border-radius, para curvar este nuevo borde.
+
+```css
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: transparent;
+    border-radius: 50%;
+}
+```
+
+Para las medidas, usamos una forma cuadrada con un **alto y ancho de 36px.**
+
+```css
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: transparent;
+    width: 36px;
+    height: 36px;
+}
+```
+
+Y finalmente vamos a añadir nuestra animación. Vamos a llamar a esta animación `spin`, que dure un segundo y el tipo de animación sea `linear` que es lineal. Puedes usar la que quieras en este punto.
+
+Lo importante es que pongas que se tiene que hacer de forma `infinite`, para que se haga repetidas veces la animación.
+
+```css
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: transparent;
+    width: 36px;
+    height: 36px;
+    animation: spin 1s linear infinite;
+}
+```
+
+Ahora creamos la animación usando `@keyframes` de forma que empezamos en un punto (el punto de inicio es 0%) y, al final, habremos rotado el spinner completamente (100%):
+
+```css
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+```
+
+¡Y ya lo tenemos! Con esats líneas de código CSS ya podemos implementar nuestro loader básico en nuestras interfaces.

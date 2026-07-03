@@ -1,0 +1,6 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemap (reemplaza TUDOMINIO.com con tu dominio real)
+Sitemap: https://TUDOMINIO.com/sitemap.xml

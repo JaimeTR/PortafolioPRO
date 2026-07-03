@@ -1,0 +1,38 @@
+name: Generate Monthly Blog
+
+on:
+  schedule:
+    - cron: '0 9 1 * *' # 1er día de cada mes a las 09:00 UTC
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Generate monthly article
+        env:
+          AI_PROVIDER: gemini
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AI_GEMINI_MODEL: gemini-1.5-pro
+        run: node ./scripts/generate-monthly.mjs
+
+      - name: Commit and push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/posts/*.mdx || true
+          git diff --cached --quiet || git commit -m "chore(blog): artículo mensual generado"
+          git push

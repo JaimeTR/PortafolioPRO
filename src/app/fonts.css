@@ -1,0 +1,9 @@
+/* Braze Font - Marca PortafolioPRO */
+@font-face {
+  font-family: 'Braze';
+  src: url('/fonts/Braze.ttf') format('truetype'),
+       url('/fonts/Braze.otf') format('opentype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}

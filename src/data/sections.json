@@ -1,0 +1,32 @@
+[
+  {
+    "id": "profile",
+    "label": "Perfil y Hero",
+    "is_hidden": false
+  },
+  {
+    "id": "experience",
+    "label": "Experiencia",
+    "is_hidden": false
+  },
+  {
+    "id": "project",
+    "label": "Proyectos",
+    "is_hidden": false
+  },
+  {
+    "id": "aboutme",
+    "label": "Sobre Mí",
+    "is_hidden": false
+  },
+  {
+    "id": "manage-blog",
+    "label": "Blogs",
+    "is_hidden": false
+  },
+  {
+    "id": "skills",
+    "label": "Tecnologías",
+    "is_hidden": false
+  }
+]

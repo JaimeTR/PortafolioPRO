@@ -1,0 +1,585 @@
+[
+  {
+    "id": 129,
+    "title": "Devmark",
+    "description": "Agencia ",
+    "image": "/projects/Capturadepantalla2026-06-03015154.png",
+    "category": "Sistemas Web",
+    "rubro": "Marketing / Agencia",
+    "technologies": [
+      "OpenAI",
+      "Firebase",
+      "React"
+    ],
+    "url": "https://www.devmark.com/",
+    "allowIframe": false
+  },
+  {
+    "id": 128,
+    "title": "Portafolio JaimeTR",
+    "description": "MI PORTAFOLIO",
+    "image": "/projects/Capturadepantalla2026-06-05200525.png",
+    "category": "Landing Pages",
+    "rubro": "Otros",
+    "technologies": [],
+    "url": "https://www.jaimetr.dev/",
+    "allowIframe": false
+  },
+  {
+    "id": 127,
+    "title": "Aprende +",
+    "description": "IE",
+    "image": "/projects/Capturadepantalla2026-06-05195633.png",
+    "category": "Webs",
+    "rubro": "Instituto / Educación",
+    "technologies": [
+      "WordPress"
+    ],
+    "url": "https://estudioaprendemas.es/",
+    "allowIframe": false
+  },
+  {
+    "id": 126,
+    "title": "Vision360",
+    "description": "Agência",
+    "image": "/projects/Capturadepantalla2026-06-05195526.png",
+    "category": "Webs",
+    "rubro": "Marketing / Agencia",
+    "technologies": [
+      "WordPress",
+      "Vercel",
+      "HTML5"
+    ],
+    "url": "https://vision360.es/",
+    "allowIframe": false
+  },
+  {
+    "id": 125,
+    "title": "Geoparque Maestrazgo",
+    "description": "geoparque en españa",
+    "image": "/projects/Capturadepantalla2026-06-05195424.png",
+    "category": "Webs",
+    "rubro": "Instituto / Educación",
+    "technologies": [
+      "WordPress",
+      "Vercel",
+      "HTML5",
+      "CSS3"
+    ],
+    "url": "https://geoparque.premm.es/",
+    "allowIframe": false
+  },
+  {
+    "id": 124,
+    "title": "Visual Medica",
+    "description": "tech medic",
+    "image": "/projects/Capturadepantalla2026-06-05195325.png",
+    "category": "Webs",
+    "rubro": "Salud / Hospital",
+    "technologies": [
+      "WordPress",
+      "HTML5",
+      "CSS3"
+    ],
+    "url": "https://visualmedica.com/",
+    "allowIframe": false
+  },
+  {
+    "id": 123,
+    "title": "Dental Life",
+    "description": "clinica dental",
+    "image": "/projects/Capturadepantalla2026-06-05195238.png",
+    "category": "Webs",
+    "rubro": "Clínica Dental",
+    "technologies": [
+      "WordPress",
+      "HTML5",
+      "CSS3"
+    ],
+    "url": "https://dentallifegt.com/",
+    "allowIframe": false
+  },
+  {
+    "id": 122,
+    "title": "FFFinanzas",
+    "description": "Finansas fff",
+    "image": "/projects/Capturadepantalla2026-06-05194954.png",
+    "category": "Automatizaciones",
+    "rubro": "Fintech / Banca",
+    "technologies": [
+      "Next.js",
+      "React",
+      "OpenAI"
+    ],
+    "url": "https://finanzas-fast-food.vercel.app/login",
+    "allowIframe": false
+  },
+  {
+    "id": 121,
+    "title": "Inoia AI",
+    "description": "Asistente de INO ",
+    "image": "/projects/Capturadepantalla2026-06-05195141.png",
+    "category": "Inteligencia Artificial",
+    "rubro": "Salud / Hospital",
+    "technologies": [
+      "PHP",
+      "React",
+      "Next.js",
+      "OpenAI"
+    ],
+    "url": "https://asistente-inoia-tbuk.vercel.app/",
+    "allowIframe": false
+  },
+  {
+    "id": 120,
+    "title": "FinanTrack",
+    "description": "Sistema de balance",
+    "image": "/projects/Capturadepantalla2026-06-05195044.png",
+    "category": "Automatizaciones",
+    "rubro": "",
+    "technologies": [
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "Framer Motion",
+      "OpenAI"
+    ],
+    "url": "https://finantrack-phi.vercel.app/",
+    "allowIframe": false
+  },
+  {
+    "id": 119,
+    "title": "El ganso y Guti",
+    "description": "Tienda del ganso",
+    "image": "/projects/Capturadepantalla2026-06-05194409.png",
+    "category": "Sistemas Web",
+    "rubro": "E-commerce",
+    "technologies": [
+      "WordPress",
+      "HTML5",
+      "CSS3"
+    ],
+    "url": "https://www.elganso.com/es/",
+    "allowIframe": false
+  },
+  {
+    "id": 118,
+    "title": "Jopco ",
+    "description": "Empresa de motobombas",
+    "image": "/projects/Capturadepantalla2026-06-05194105.png",
+    "category": "Webs",
+    "rubro": "Otros",
+    "technologies": [
+      "WordPress"
+    ],
+    "url": "https://jopco.com.pe/",
+    "allowIframe": false
+  },
+  {
+    "id": 116,
+    "title": "Amazona Rural",
+    "description": "AMAZONA CASA RURAL",
+    "image": "/projects/Capturadepantalla2026-06-05182434.png",
+    "category": "Webs",
+    "rubro": "E-commerce",
+    "technologies": [
+      "WordPress",
+      "HTML5"
+    ],
+    "url": "https://amazonasetxea.com/",
+    "allowIframe": false
+  },
+  {
+    "id": 115,
+    "title": "Ozsagales Edu",
+    "description": "Escuela de niños",
+    "image": "/projects/Capturadepantalla2026-06-05182329.png",
+    "category": "Webs",
+    "rubro": "Instituto / Educación",
+    "technologies": [
+      "WordPress",
+      "HTML5",
+      "AWS",
+      "CSS3"
+    ],
+    "url": "https://oszagales.com/homepagenew/",
+    "allowIframe": false
+  },
+  {
+    "id": 114,
+    "title": "España Abogados",
+    "description": "Abogados",
+    "image": "/projects/Capturadepantalla2026-06-05182124.png",
+    "category": "Webs",
+    "rubro": "Abogados / Legal",
+    "technologies": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3"
+    ],
+    "url": "https://espanaabogados.com/",
+    "allowIframe": false
+  },
+  {
+    "id": 113,
+    "title": "Plugin Wordpress",
+    "description": "Plugin de búsqueda de repositorios",
+    "image": "/projects/Capturadepantalla2026-06-05181358.png",
+    "category": "Webs",
+    "rubro": "Instituto / Educación",
+    "technologies": [
+      "PHP",
+      "WordPress",
+      "MySQL",
+      "OpenAI"
+    ],
+    "url": "https://pruebassegittur.premm.es/",
+    "allowIframe": true
+  },
+  {
+    "id": 112,
+    "title": "Segittur web",
+    "description": "Web admin segittur",
+    "image": "/projects/Capturadepantalla2026-06-05181306.png",
+    "category": "Webs",
+    "rubro": "Instituto / Educación",
+    "technologies": [
+      "WordPress",
+      "HTML5",
+      "CSS3",
+      "PHP"
+    ],
+    "url": "https://www.segittur.es/",
+    "allowIframe": false
+  },
+  {
+    "id": 111,
+    "title": "Amysa Shop",
+    "description": "Tienda online",
+    "image": "/projects/Capturadepantalla2026-06-05181114.png",
+    "category": "Ecommerce",
+    "rubro": "E-commerce",
+    "technologies": [
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "Node.js",
+      "TypeScript",
+      "JavaScript",
+      "OpenAI"
+    ],
+    "url": "https://amysashop.com/",
+    "allowIframe": false
+  },
+  {
+    "id": 110,
+    "title": "Enova Windows",
+    "description": "Venta de ventanas ",
+    "image": "/projects/Capturadepantalla2026-06-05180923.png",
+    "category": "Webs",
+    "rubro": "Inmobiliaria",
+    "technologies": [
+      "WordPress",
+      "HTML5",
+      "PHP",
+      "Figma",
+      "CSS3"
+    ],
+    "url": "https://enova-windows.com/",
+    "allowIframe": false
+  },
+  {
+    "id": 109,
+    "title": "Taklab Agency",
+    "description": "Tajlab landing ",
+    "image": "/projects/Capturadepantalla2026-06-05180650.png",
+    "category": "Landing Pages",
+    "rubro": "Inmobiliaria",
+    "technologies": [
+      "WordPress",
+      "HTML5",
+      "JavaScript",
+      "PHP"
+    ],
+    "url": "https://www.taklab.com/",
+    "allowIframe": false
+  },
+  {
+    "id": 108,
+    "title": "Chancay Medic",
+    "description": "Clinica",
+    "image": "/projects/Capturadepantalla2026-06-05180452.png",
+    "category": "Webs",
+    "rubro": "Salud / Hospital",
+    "technologies": [
+      "PHP",
+      "JavaScript",
+      "HTML5",
+      "CSS3"
+    ],
+    "url": "https://chancaymedic.com/",
+    "allowIframe": false
+  },
+  {
+    "id": 107,
+    "title": "Tapmedic",
+    "description": "Drogeria e importadora",
+    "image": "/projects/Capturadepantalla2026-06-05180313.png",
+    "category": "Webs",
+    "rubro": "Salud / Hospital",
+    "technologies": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "MySQL",
+      "JavaScript"
+    ],
+    "url": "https://drogueriatapmedic.com/",
+    "allowIframe": false
+  },
+  {
+    "id": 106,
+    "title": "Offroand Perú",
+    "description": "Mecanica",
+    "image": "/projects/Capturadepantalla2026-06-05180130.png",
+    "category": "Webs",
+    "rubro": "Otros",
+    "technologies": [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "Figma"
+    ],
+    "url": "https://offroadperu.com.pe/",
+    "allowIframe": false
+  },
+  {
+    "id": 9,
+    "title": "Smart Dashboard AI",
+    "description": "Dashboard analítico con inteligencia artificial predictiva para toma de decisiones.",
+    "image": "/projects/dashboard.png",
+    "category": "Inteligencia Artificial",
+    "rubro": "Tecnología / SaaS",
+    "technologies": [
+      "Next.js",
+      "Python",
+      "TensorFlow",
+      "AWS"
+    ],
+    "url": "https://jaimetr.dev",
+    "allowIframe": false
+  },
+  {
+    "id": 105,
+    "title": "Matarraña Aventura",
+    "description": "Travel",
+    "image": "/projects/Capturadepantalla2026-06-05175956.png",
+    "category": "Webs",
+    "rubro": "Agencia de Viajes",
+    "technologies": [
+      "WordPress",
+      "HTML5",
+      "PHP"
+    ],
+    "url": "https://nuevaweb.xn--matarraaventura-4qb.com/",
+    "allowIframe": false
+  },
+  {
+    "id": 101,
+    "title": "Agencia DevmarkPE",
+    "description": "Desarrollo de página web corporativa moderna enfocada en la conversión y presentación de servicios.",
+    "image": "/projects/Capturadepantalla2026-05-30033559.png",
+    "category": "Webs",
+    "rubro": "Marketing / Agencia",
+    "technologies": [
+      "WordPress",
+      "Elementor",
+      "Diseño Web",
+      "PHP"
+    ],
+    "url": "https://www.devmarkpe.com/",
+    "allowIframe": false
+  },
+  {
+    "id": 104,
+    "title": "Vinvata Dental",
+    "description": "Clínica dental",
+    "image": "/projects/Capturadepantalla2026-06-05175723.png",
+    "category": "Sistemas Web",
+    "rubro": "Clínica Dental",
+    "technologies": [
+      "CSS3",
+      "HTML5",
+      "Vercel",
+      "WordPress",
+      "Figma",
+      "PHP",
+      "Stripe"
+    ],
+    "url": "https://vivantadental.es/",
+    "allowIframe": false
+  },
+  {
+    "id": 4,
+    "title": "EduPortal Pro",
+    "description": "Plataforma e-learning para la gestión de cursos, alumnos y pagos mensuales.",
+    "image": "/projects/saas.png",
+    "category": "Software a Medida",
+    "rubro": "Instituto / Educación",
+    "technologies": [
+      "React",
+      "Express",
+      "MongoDB",
+      "AWS",
+      "Next.js",
+      "OpenAI",
+      "Framer Motion",
+      "Vercel"
+    ],
+    "url": "https://jaimetr.dev"
+  },
+  {
+    "id": 103,
+    "title": "Dorthon ",
+    "description": "Clínica de Ortodoncia",
+    "image": "/projects/dorthon.png",
+    "category": "Webs",
+    "rubro": "Clínica Dental",
+    "technologies": [
+      "HTML5",
+      "Vercel",
+      "CSS3",
+      "PHP"
+    ],
+    "url": "https://www.dorthon.com/",
+    "allowIframe": false
+  },
+  {
+    "id": 1,
+    "title": "Tema WP B2B",
+    "description": "Tema de WordPress premium desarrollado a medida para corporaciones y empresas B2B.",
+    "image": "/projects/wordpress.png",
+    "category": "Webs",
+    "rubro": "Tecnología / SaaS",
+    "technologies": [
+      "WordPress",
+      "Elementor",
+      "Desarrollo de Temas",
+      "Diseño Web",
+      "Firebase",
+      "PHP"
+    ],
+    "url": "https://jaimetr.dev",
+    "allowIframe": false
+  },
+  {
+    "id": 102,
+    "title": "Urbanz",
+    "description": "Sitio web desarrollado en WordPress para el sector inmobiliario y de arquitectura.",
+    "image": "/projects/Capturadepantalla2026-06-05182714.png",
+    "category": "Webs",
+    "rubro": "Inmobiliaria",
+    "technologies": [
+      "WordPress",
+      "Elementor",
+      "PHP",
+      "MySQL"
+    ],
+    "url": "https://www.urbanz.es/"
+  },
+  {
+    "id": 100,
+    "title": "Memorandum web",
+    "description": "Desarrollo y diseño de sitio web corporativo interactivo e informativo.",
+    "image": "/projects/Capturadepantalla2026-06-05182645.png",
+    "category": "Sistemas Web",
+    "rubro": "Marketing / Agencia",
+    "technologies": [
+      "Next.js",
+      "TailwindCSS",
+      "Framer Motion",
+      "GSAP",
+      "WordPress",
+      "PHP",
+      "HTML5"
+    ],
+    "url": "https://memorandum.es/",
+    "allowIframe": false
+  },
+  {
+    "id": 5,
+    "title": "CRM Memorandum",
+    "description": "Sistema CRM para gestión comercial, automatización de ventas y seguimiento de clientes.",
+    "image": "/projects/crm.png",
+    "category": "Software a Medida",
+    "rubro": "Tecnología / SaaS",
+    "technologies": [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "OpenAI",
+      "JavaScript",
+      "Next.js",
+      "PHP"
+    ],
+    "url": "https://kitdigital.memorandum.es/dashboard",
+    "allowIframe": true
+  },
+  {
+    "id": 7,
+    "title": "E-Commerce PN",
+    "description": "Tienda en línea de alto rendimiento con pasarelas de pago y gestión de inventario.",
+    "image": "/projects/ecommerce.png",
+    "category": "Ecommerce",
+    "rubro": "E-commerce",
+    "technologies": [
+      "Next.js",
+      "TailwindCSS",
+      "Prisma",
+      "Vercel",
+      "WordPress"
+    ],
+    "url": "https://pilarprieto.es/",
+    "allowIframe": false
+  },
+  {
+    "id": 11,
+    "title": "AutoFlow Marketing",
+    "description": "Sistema de automatización de flujos de marketing y correos electrónicos.",
+    "image": "/projects/marketing.png",
+    "category": "Automatizaciones",
+    "rubro": "Marketing / Agencia",
+    "technologies": [
+      "Vue.js",
+      "Express",
+      "MongoDB",
+      "Make",
+      "Next.js",
+      "Tailwind CSS",
+      "Node.js"
+    ],
+    "url": "https://jaimetr.dev",
+    "allowIframe": false
+  },
+  {
+    "id": 117,
+    "title": "Dashboard  MM",
+    "description": "Sistema de gestión de clientes",
+    "image": "/projects/Capturadepantalla2026-06-05193102.png",
+    "category": "Automatizaciones",
+    "rubro": "",
+    "technologies": [
+      "React",
+      "PHP",
+      "Next.js",
+      "Tailwind CSS",
+      "Node.js",
+      "AWS",
+      "Vercel"
+    ],
+    "url": "https://kitdigital.memorandum.es/dashboard",
+    "allowIframe": true
+  }
+]

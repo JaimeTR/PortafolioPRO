@@ -1,0 +1,136 @@
+---
+title: Conditional Render en ReactJS - Deja de usar "&&"
+date: '2023-12-12'
+description: >-
+  Aprende la mejor forma de manipular el renderizado condicional y deja ya de
+  usar el operador && y controla el comportamiento de tu aplicación.
+toc: true
+tags:
+  - reactjs
+cover: /images/posts/renderizado-condicional-en-react-js.webp
+author: '@jaimetrdev'
+featured_order: 32
+---
+
+¡Hola, desarrolladores de React! Es hora de dar un paso hacia adelalnte y dejar atrás los viejos hábitos.
+
+Estamos por comenzar 2024 y hay una mejor manera de manejar el renderizado condicional en React que usar el operador "&&".
+
+En este artículo, veremos un enfoque más elegante y expresivo para la representación condicional que hará que nuestro código sea más limpio y fácil de leer.
+
+Entonces, digamos adiós a “&&” y adoptemos una forma más moderna de renderizado condicional en React.
+
+¡Empecemos!
+
+## La vieja confiable: Renderizado condicional con "&&":
+
+En el pasado, muchos de nosotros usábamos el “&&” operador para representar condicionalmente componentes o elementos en función de una condición.
+
+Por ejemplo, escribiríamos un código como este:
+
+```javascript
+function MyComponent({ isLoggedIn }) {
+    return <div>{isLoggedIn && <p>Welcome back, User!</p>}</div>
+}
+```
+
+Veamos un resumen del código anterior:
+
+-   Si la condición es un valor verdadero, se renderizará el párrafo.
+-   Si la condición es un valor falso, no se renderizará el párrafo.
+
+## ¿Por qué pasa esto?
+
+No es algo específico de React, es un comportamiento de JavaScript y otros lenguajes de programación llamados "short-circuit-evaluation" si el primer operador es falso, el operador AND (&&) para 🛑 y no evalua el segundo operador.
+
+La sintaxis corta de (&&) funciona y es preferida por muchos. Pero solo por eso, no significa que tu debas usarla.
+
+En nuestro caso anterior donde se evalua la condición con `true` o `false` se obtiene lo que se espera, hasta ahí todo bien. Sin embargo, cuando la condición no evalua valores boleanos, es donde llegan los problemas.
+
+Veamos el siguiente ejemplo:
+
+```javascript
+/* Esto no renderizará nada ✅ */
+<>{false && <div>👋</div>}</>
+
+/* Esto renderizará 0 😡 */
+<>{0 && <div>👋</div>}</>
+
+/* Esto no renderizará nada ✅ */
+<>{""  && <div>👋</div>}</>
+
+/* Esto no renderizará nada ✅ */
+<>{null && <div>👋</div>}</>
+
+/* Esto no renderizará nada ✅ */
+<>{undefined && <div>👋</div>}</>
+
+/* Esto renderizará NaN 😡 */
+<>{NaN && <div>👋</div>}</>
+```
+
+Para solucionar esto, podemos utilizar otros enfoques para determinar entonces lo que se renderizará en determinados casos.
+
+## La forma moderna: renderizado condicional con operador ternario o lógico OR:
+
+Hay algunas formas de solucionar este problema. La primera (y la mejor) forma es utilizar el operador ternario. El operador ternario es un operador condicional que comprueba si una condición es verdadera o falsa. Si la condición es verdadera, devuelve el primer operando. Si la condición es falsa, devuelve el segundo operando.
+
+En lugar de depender únicamente del operador "&&", podemos aprovechar el poder del operador ternario para la representación condicional.
+
+Exploremos ambas opciones.
+
+### 1. Representación condicional con operador ternario:
+
+El operador ternario nos permite escribir expresiones condicionales concisas, haciendo que nuestro código sea más expresivo. He aquí un ejemplo:
+
+```javascript
+function MyComponent({ isLoggedIn }) {
+    return <div>{isLoggedIn ? <p>Welcome back, User!</p> : null}</div>
+}
+```
+
+En este código, si la propiedad “isLoggedIn” es verdadera, representamos el elemento `<p>` con el mensaje de bienvenida. De lo contrario, renderizamos `null`, ocultando efectivamente el elemento.
+
+Veamos otros dos ejemplos más:
+
+```javascript
+/* Esto no renderizará nada ✅ */
+<>{0 ? <div>👋</div> : null}</>
+
+/* Esto no renderizará nada ✅ */
+<>{NaN ? <div>👋</div> : null}</>
+```
+
+### 2. Representación condicional con operador lógico OR (||):
+
+El operador lógico OR (||) proporciona otro enfoque para la representación condicional.
+
+Nos permite especificar un valor predeterminado cuando la condición es falsa. He aquí un ejemplo:
+
+```javascript
+function MyComponent({ username }) {
+    return (
+        <div>
+            <p>Welcome, {username || 'Guest'}!</p>
+        </div>
+    )
+}
+```
+
+En este código, si se proporciona el atributo "nombre de usuario", se representará en el elemento `<p>`. Si el "nombre de usuario" prop es falso (por ejemplo, una cadena vacía o no definida), el operador lógico OR devolverá el valor predeterminado de "Invitado".
+
+## Beneficios del enfoque moderno:
+
+Al utilizar el operador ternario o el operador lógico OR, obtenemos varios beneficios sobre el antiguo "&&":
+
+-   **Legibilidad**: El código se vuelve más expresivo y más fácil de entender, especialmente cuando se trata de condiciones más complejas o múltiples opciones de renderizado.
+-   **Flexibilidad**: Con el operador ternario, podemos manejar condiciones verdaderas y falsas permitiendo controlar manualmente el comportamiento de nuestro renderizado y evitar renderizados inesperados.
+-   **Valores predeterminados**: El operador lógico OR proporciona una manera conveniente de especificar valores predeterminados cuando la condición es falsa, lo que reduce la necesidad de lógica adicional.
+
+## Conclusiones
+
+La representación condicional es una técnica en React que le permite mostrar u ocultar ciertas partes de su interfaz de usuario según ciertas condiciones. Esto puede resultar útil cuando desea mostrar diferentes contenidos o componentes según lo que sucede en su aplicación.
+
+Sin embargo, existe un problema al utilizar el operador "&&" con valores falsos como 0 y NaN, lo que puede provocar accidentalmente una representación inesperada.
+
+Para solucionar este problema, podemos usar el operador ternario o el operador OR (||) e incluso convertir valores falsos a booleanos. Estas técnicas ayudarán a garantizar que sus componentes de React representen exactamente lo que espera.
