@@ -55,5 +55,68 @@
     "@types/node": "^26.0.0",
     "@types/react": "^19.2.17",
     "typescript": "^6.0.3"
+  },
+  "overrides": {
+    "openai": {
+      "@types/node-fetch": {
+        "form-data": "4.0.6"
+      },
+      "ws": "8.21.0"
+    },
+    "eslint": {
+      "minimatch": "3.1.4",
+      "@eslint/eslintrc": {
+        "minimatch": "3.1.4"
+      },
+      "@humanwhocodes/config-array": {
+        "minimatch": "3.1.4"
+      },
+      "file-entry-cache": {
+        "flat-cache": {
+          "flatted": "3.4.2",
+          "rimraf": {
+            "glob": {
+              "minimatch": "3.1.4"
+            }
+          }
+        }
+      }
+    },
+    "eslint-config-next": {
+      "eslint-plugin-import": {
+        "minimatch": "3.1.4"
+      },
+      "eslint-plugin-jsx-a11y": {
+        "minimatch": "3.1.4"
+      },
+      "eslint-plugin-react": {
+        "minimatch": "3.1.4"
+      },
+      "eslint-import-resolver-typescript": {
+        "tinyglobby": {
+          "picomatch": "4.0.4"
+        }
+      }
+    },
+    "tailwindcss": {
+      "chokidar": {
+        "anymatch": {
+          "picomatch": "2.3.2"
+        },
+        "readdirp": {
+          "picomatch": "2.3.2"
+        }
+      },
+      "micromatch": {
+        "picomatch": "2.3.2"
+      }
+    },
+    "pdfjs-dist": {
+      "canvas": {
+        "@mapbox/node-pre-gyp": {
+          "tar": "7.5.11"
+        }
+      }
+    }
   }
 }
